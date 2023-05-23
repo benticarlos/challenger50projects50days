@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #a6d0dd;
   font-family: Muli, sans-serif;
   display: flex;
   align-items: flex-start;
@@ -18,13 +19,13 @@ body {
 }
 
 .container h2 {
-  color: navy;
+  color: #ff6969;
   font-size: 24px;
 }
 
 .container a {
+  color: #000080;
   text-decoration: none;
-  color: darkgrey;
   font-size: 20px;
   cursor: pointer;
 }
@@ -36,7 +37,7 @@ body {
 
 .row a, .row li {
   text-decoration: none;
-  color: #777;
+  color: #008080;
   cursor: pointer;
   font-size: 18px;
 }
