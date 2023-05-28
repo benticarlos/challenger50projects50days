@@ -14,7 +14,7 @@ window.addEventListener('keydown', () => {
 
     <div class="key">
       ${event.code}
-      </small>event.code</small>
+      <small>event.code</small>
     </div> 
   `
 })
