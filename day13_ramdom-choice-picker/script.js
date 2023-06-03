@@ -24,7 +24,7 @@ function createTags(input) {
     const tagEl = document.createElement('span')
     tagEl.classList.add('tag')
     tagEl.innerText = tag
-    tagEl.appendChild(tagsEl)
+    tagsEl.appendChild(tagEl)
   })
 }
 
