@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Muli', sans-serif;
-  background-color: #f0f0f0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #a6d0dd;
 }
 
 h1 {
+  color: #ff6969;
   margin: 50px 0 30px;
   text-align: center;
 }
@@ -21,7 +22,7 @@ h1 {
 
 .faq {
   background-color: transparent;
-  border: 1px solid #9fa4a8;
+  border: 1px solid #fff9de;
   border-radius: 10px;
   margin: 20px 0;
   padding: 30px;
@@ -31,7 +32,7 @@ h1 {
 }
 
 .faq.active {
-  background-color: #fff;
+  background-color: #fff9de;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
