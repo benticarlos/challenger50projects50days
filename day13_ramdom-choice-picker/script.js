@@ -50,7 +50,8 @@ function randomSelect() {
       const randomTag = pickRandomTag()
 
       highlightTag(randomTag)
-    }), 100)
+    }, 100)
+
   }, times * 100)
 }
 
